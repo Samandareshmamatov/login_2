@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../img/login-page-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 300px;
+    height: 398px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    padding-top: 169px;
+    background-image: url('../img/logo-img.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    width: 300px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    outline-color: transparent;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 51px;
+}
+
+.login-input::placeholder {
+    color: #fff;
+    opacity: 0.3;
+}
+
+#username {
+    background-image: url('../img/user.svg');
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+}
+
+#password {
+    background-image: url('../img/lock.svg');
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    margin-bottom: 43px;
+}
+
+.btn {
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2148C0;
+    margin-bottom: 11px;
+}
+
+.btn:hover {
+    background-color: #e9e9e9;
+    transition-duration: 0.8s;
+    box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.3);
+}
+
+.link {
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
